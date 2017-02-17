@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ale.learnwithas">
+
+    <uses-feature android:name="android.hardware.camera2" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!-- informazioni relative all'applicazione -->
+    <!--
+ quando avrai finito copia la cartella values e crea value-**    dove ** sarà sostituito da l'identificativo della lingua
+ che avrai scelto, guarda pdf n 6 del tutorial
+    -->
+    <!-- dentro android:icon abbiamo l'icona dell'applicazione -->
+    <!-- dentro android:label nome app sul smartphone -->
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <!-- indica quale activity visualizzare all'apertura dell'activity -->
+        <!-- android:name=".Prova1"  collega il file con la classe java Prova1 -->
+        <activity
+            android:name=".Prova1"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter> <!-- parte di codice che serve per svegliare l'activity -->
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+                <!-- per definire l'Activity da usare per lanciare l'applicazione -->
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".pageTwo"
+            android:label="Pagina Due" />
+        <activity android:name=".pageThree"></activity>
+        <activity android:name=".pageFourth"></activity>
+    </application>
+
+</manifest>

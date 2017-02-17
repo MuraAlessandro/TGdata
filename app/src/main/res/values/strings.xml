@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Tokyo Ghoul:re</string>
+    <string name="name">TG:re data</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_List1">List 1</string>
+    <string name="action_List2">List 2</string>
+    <string name="testoIniziale">Benveuto in questa applicazione ;), qui potrai trovare tutte le informazioni e curiosità riguardanti il manga  Tokyo Ghoul creato dal sensei Sui Ishida </string>
+    <string name="Text">Un po di testo per riempire la pagina e fare qualche prova con gravity</string>
+</resources>
